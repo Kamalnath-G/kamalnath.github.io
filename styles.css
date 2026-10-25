@@ -18,7 +18,10 @@
 @media(max-width:700px){
     /* Disable the playable mini-game on mobile */
     #scene,
-    .score {display: none !important;}
+    .score,
+    .hero-art {
+        display: none !important;
+    }
     .site-header{height:auto;min-height:64px;padding:0 1rem}
     .site-header nav{gap:.8rem}
     .site-header nav a{font-size:.78rem}
@@ -33,7 +36,7 @@
     .hero-copy{padding-bottom:1.6rem}
     .tech-strip{display:none}
     .character{transform:scale(.75);transform-origin:bottom center;left:47%}
-    .section-wrap{width:calc(100% - 2rem)}
+    .section-wrap{width:calc(100% - 2rem)}  
     .projects-section{padding:3.2rem 0}
     .section-heading{display:block}
     .section-note{margin-top:.8rem}
